@@ -1,0 +1,110 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.list a {
+    transition: all 0.2s ease;
+}
+
+.list a:hover {
+    color: #fff;
+}
+
+.list a {
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.nav-link-filled {
+    background: rgba(114, 114, 114, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #404040b5;
+    box-shadow: 0 2px 10px #0000001a;
+    padding: 20px 20px 20px 65px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+html, body {
+    scroll-behavior: smooth;
+  }
+  
+
+@media (max-width: 646px) {
+    .nav {
+        width: 100%;
+        justify-content: center;  /* Aggiunto per centrare la barra di navigazione */
+    }
+
+    .list {
+        flex-direction: column;  /* Cambiato per allineare gli elementi verticalmente */
+        align-items: center;
+    }
+
+    .list a {
+        margin: 10px;
+    }
+
+    .nav-link-filled {
+        padding: 20px 20px 20px 20px;
+        margin: 0;  /* Aggiunto per rimuovere i margini laterali */
+    }
+}
+
+@media (max-width: 398px) {
+    .nav {
+        width: 100%;  /* Fai in modo che la nav occupi l'intera larghezza disponibile */
+        justify-content: flex-start;  /* Allinea gli elementi sulla sinistra */
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: flex-start;  /* Allinea gli elementi verticalmente sulla sinistra */
+    }
+
+    .list a {
+        margin: 10px 9px;  /* Riduci il margine verticale tra gli elementi */
+    }
+
+    .nav-link-filled {
+        padding: 20px;  /* Aggiorna il padding per renderlo uniforme su tutti i lati */
+        margin: 0;  /* Rimuovi il margine laterale */
+        width: 100%;  /* Assicurati che la nav-link-filled occupi l'intera larghezza disponibile */
+    }
+}
+
+@media (max-width: 388px) {
+    .nav {
+       display: none;
+    }
+}
+
+@media (max-width: 398px) and (min-width: 389px) {
+    .nav-link-filled {
+        width: 240px;
+        margin: auto;
+    }   
+}

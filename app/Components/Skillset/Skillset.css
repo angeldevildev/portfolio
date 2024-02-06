@@ -1,0 +1,34 @@
+.skills-wrapper span {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #333333;
+    background-color: #232323;
+    box-shadow: 0 2px 3px #0000003d;
+}
+
+.skills-wrapper {
+    font-size: 14px;
+    gap: 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillset-title {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.skillset {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 650px) {
+    .skillset {
+        gap: 20px;
+    }
+}

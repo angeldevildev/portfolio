@@ -1,0 +1,95 @@
+.hero-wrapper-title {
+    font-size: 75px;
+    margin-top: 250px;
+}
+
+.hello {
+    color: #fff;
+}
+
+.frontend-dev {
+    color: var(--green);
+}
+
+.hello-a {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.stars {
+    margin-top: -500px;
+}
+
+.header-p {
+    margin-top: 30px;
+    width: 100%;
+}
+
+@media (max-width: 1502px) {
+    .stars {
+        display: none;
+    }
+}
+
+@media (max-width: 630px) {
+     .hello,
+     .frontend-dev {
+        font-size: 40px;  
+     }
+}
+@media (max-width: 604px) {
+    .hero-wrapper-title {
+        font-size: 60px;  /* Riduci la dimensione del font generale */
+    }
+
+    .hello {
+        margin-bottom: -10px;  /* Aggiungi questo stile per spostare verso l'alto il testo "Hello" rispetto a "A Front-End Developer" */
+    }
+
+    .frontend-dev {
+        font-size: 40px;  /* Riduci la dimensione del font per "A Front-End Developer" */
+    }
+
+    .header-p {
+        width: 60%;
+        margin-left: 18%;
+        margin-top: 10px;
+    }
+
+    .hero-wrapper-title .hello {
+        margin-top: 100px !important;
+    }
+}
+
+@media (max-width: 392px) {
+    .hello{
+        font-size: 30px;
+    }
+    .frontend-dev {
+        font-size: 30px;
+    }
+    .header-p {
+        width: 90%;
+        margin-left: 3.5%;
+    }
+}
+
+@media (max-width: 347px) {
+    .frontend-dev {
+        font-size: 20px;
+    }
+    .hello{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 243px) {
+    .frontend-dev {
+        font-size: 15px;
+    }
+    .hello {
+        font-size: 15 px;
+    }
+}

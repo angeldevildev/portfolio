@@ -1,0 +1,49 @@
+/* ProjectBox.css */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-box {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Aggiunto margine inferiore per separare i box */
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .project-technologies {
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .link-icon {
+    display: flex;
+    margin-top: 20px; /* Aggiunto margine superiore tra le icone */
+    font-size: 20px;
+  }
+
+  .link-icon a {
+    margin-right: 30px; /* Aggiunto margine a destra tra le icone */
+    transition: .2s all ease;
+  }
+
+  .link-icon a:hover{
+    color: var(--green);
+  }
+
+  

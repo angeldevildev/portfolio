@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column; /* Imposta la direzione della colonna */
+    align-items: center; /* Centra orizzontalmente */
+    gap: 20px;
+    text-align: center; /* Centra orizzontalmente il testo */
+    margin-top: 100px;
+}
+
+.footer span {
+    font-size: 15px;
+}
+
+a {
+    transition: all .2s ease;
+}
+
+a:hover {
+    color: var(--green);
+}
+
+@media (min-width: 650px) {
+    .footer-social {
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+    }
+}

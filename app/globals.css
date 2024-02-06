@@ -3,25 +3,44 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --green: #40cf8e;
+    --text-color: #bbbbbb;
+    --white-color: #ededed;
+    --black-color: #131313;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* Personalizzazione della barra di scorrimento */
+::-webkit-scrollbar {
+  width: 12px; /* Larghezza della barra di scorrimento */
+}
+
+/* Personalizzazione del "pulsante" della barra di scorrimento */
+::-webkit-scrollbar-thumb {
+  background-color: var(--green); /* Colore del pulsante della barra di scorrimento */
+  border-radius: 6px; /* Bordi arrotondati del pulsante */
+}
+
+/* Personalizzazione della traccia della barra di scorrimento */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Colore della traccia della barra di scorrimento */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: __inter_Fallback_20b187,ui-sans-serif,system-ui,-apple-system,"system-ui",Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+  letter-spacing: 1px;
+  font-weight: 300;
+  background-color: var(--black-color);
+  color: var(--text-color);
+  transition: all .2s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--green);
+  color: var(--black-color);
 }

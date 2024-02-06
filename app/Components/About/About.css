@@ -1,0 +1,32 @@
+.about-title {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; /* Aggiungi una larghezza massima per mantenere il testo leggibile su schermi più larghi */
+    margin: 0 auto; /* Centra il contenuto orizzontalmente */
+    padding: 0 20px; /* Aggiungi padding se necessario */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 1em 0; /* Aggiungi un margine sopra e sotto il paragrafo */
+}
+
+@media (max-width: 1502px) {
+    #about {
+        margin-top: 110px;
+    }
+}
