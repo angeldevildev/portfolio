@@ -17,6 +17,7 @@
     "react-tilt": "^1.0.2"
   },
   "devDependencies": {
+    "@types/node": "^20.11.16",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
