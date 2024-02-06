@@ -7,14 +7,16 @@ function Header() {
     <div className="header">
       <div className="hello-a">
         <h1 className="hero-wrapper-title">
-          <span className="hello">Hello. I'm Angelo.</span>
+          <span className="hello">{`Hello. I'm Angelo.`}</span>
           <br />
-          <span className="frontend-dev">A Front-End Developer.</span>
+          <span className="frontend-dev">{`A Front-End Developer.`}</span>
         </h1>
         <p className="header-p">
+          {`
           Crafting seamless web interfaces that prioritize user experience,
           accessibility, and functionality is my passion as a frontend
           developer.
+          `}
         </p>
       </div>
       <div className="stars">
