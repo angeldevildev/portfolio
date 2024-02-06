@@ -3,7 +3,7 @@ import "./Experience.css";
 
 function Experience() {
   return (
-    <div className="experience-section" id="work">
+    <div className="experience-section ciao" id="work">
       <h2 className="experience-heading">Experience</h2>
       <div className="experience-item">
         <div className="experience-date">Sep 2022 - Present</div>
