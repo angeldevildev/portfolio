@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <span>© 2023 Angelo Broggian</span>
+      <span>© 2024 Angelo Broggian</span>
       <div className="footer-social">
         <a
           href="https://www.linkedin.com/in/angelo-broggian-78b734269/"
