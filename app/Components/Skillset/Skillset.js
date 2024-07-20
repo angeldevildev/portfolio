@@ -6,21 +6,21 @@ function Skillset() {
     <div className="skillset">
       <h1 className="skillset-title">Skillset</h1>
       <div className="skills-wrapper">
-        <span>React</span>
         <span>Javascript</span>
+        <span>React</span>
+        <span>Next.js</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>Redux</span>
         <span>HTML</span>
         <span>CSS</span>
         <span>Sass</span>
-        <span>Git</span>
-        <span>Next.js</span>
-        <span>Redux</span>
-        <span>Express.js</span>
-        <span>Node.js</span>
         <span>Tailwind</span>
         <span>Bootstrap</span>
+        <span>Git</span>
         <span>GitHub</span>
         <span>Figma</span>
-        <span>Photoshop</span>
+        <span>Canva</span>
       </div>
     </div>
   );

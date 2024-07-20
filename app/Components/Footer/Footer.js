@@ -26,7 +26,7 @@ function Footer() {
             <circle cx="4" cy="4" r="2"></circle>
           </svg>
         </a>
-        <a href="mailto:info@mineshop.it" target="_blank">
+        <a href="mailto:angelobroggian4@gmail.com" target="_blank">
           <svg
             stroke="currentColor"
             fill="none"
