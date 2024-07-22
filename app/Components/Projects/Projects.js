@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 
-const ProjectBox = ({ title, description, technologies }) => {
+const ProjectBox = ({ title, description, technologies, gitHubLink, projectLink }) => {
   return (
     <div className="project-box">
       <h2 className="project-title">{title}</h2>
@@ -9,7 +9,7 @@ const ProjectBox = ({ title, description, technologies }) => {
       <div className="project-technologies">
         <strong>Technologies used:</strong> {technologies.join(", ")}
       <div className="link-icon">
-        <a href="https://car-rental-angeldevil.vercel.app/" target="_blank">
+        <a href={projectLink} target="_blank">
           <svg
             stroke="currentColor"
             fill="none"
@@ -25,7 +25,7 @@ const ProjectBox = ({ title, description, technologies }) => {
             <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
           </svg>
         </a>
-        <a href="https://github.com/angeldevildev/car-rental" target="_blank">
+        <a href={gitHubLink} target="_blank">
           <svg
             stroke="currentColor"
             fill="none"
