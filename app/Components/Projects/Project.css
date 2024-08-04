@@ -38,7 +38,7 @@
   }
 
   .link-icon a {
-    margin-right: 30px; /* Aggiunto margine a destra tra le icone */
+    margin-right: 20px; /* Aggiunto margine a destra tra le icone */
     transition: .2s all ease;
   }
 
