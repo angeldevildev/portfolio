@@ -19,6 +19,7 @@ function Skillset() {
         <span>Bootstrap</span>
         <span>Git</span>
         <span>GitHub</span>
+        <span>SQL</span>
         <span>Figma</span>
         <span>Canva</span>
       </div>
