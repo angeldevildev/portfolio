@@ -8,9 +8,9 @@ function Skillset() {
       <div className="skills-wrapper">
         <span>Javascript</span>
         <span>React</span>
-        <span>Next.js</span>
-        <span>Node.js</span>
-        <span>Express.js</span>
+        <span>NextJS</span>
+        <span>NodeJS</span>
+        <span>ExpressJS</span>
         <span>Redux</span>
         <span>HTML</span>
         <span>CSS</span>

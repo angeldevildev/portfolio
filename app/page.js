@@ -23,11 +23,18 @@ export default function Home() {
           gitHubLink='https://github.com/angeldevildev/car-rental'
         />
         <ProjectBox 
-          title="Bank Website"
-          description="Frontend of a bank website created with React and Css and deployed vith Vercel."
-          technologies={["React", "JavaScript", "CSS", "ViteJS", "Vercel"]}
-          projectLink='https://bank-website-omega.vercel.app/'
+          title="Portfolio 2024"
+          description="My new portfolio with a new design, i am still working on this project!"
+          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel"]}
+          projectLink='https://portfolio-2024-eight-iota.vercel.app/'
           gitHubLink='https://github.com/angeldevildev/bank-website'
+        />
+        <ProjectBox 
+          title="VisiUI"
+          description="VisiUI is a library that provides pre-built, editable React components that can be used in your app. Is OpenSource and you can start contributing right NOW!"
+          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "OpenGraph"]}
+          projectLink="https://visi-ui.vercel.app/"
+          gitHubLink="https://github.com/VisiUI/VisiUI"
         />
       </div>
       <Footer />
