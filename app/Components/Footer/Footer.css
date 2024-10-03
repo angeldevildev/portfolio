@@ -1,9 +1,9 @@
 .footer {
     display: flex;
-    flex-direction: column; /* Imposta la direzione della colonna */
-    align-items: center; /* Centra orizzontalmente */
+    flex-direction: column; 
+    align-items: center; 
     gap: 20px;
-    text-align: center; /* Centra orizzontalmente il testo */
+    text-align: center; 
     margin-top: 100px;
 }
 
@@ -24,5 +24,6 @@ a:hover {
         display: flex;
         gap: 20px;
         font-size: 20px;
+        
     }
 }

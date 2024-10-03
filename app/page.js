@@ -23,16 +23,23 @@ export default function Home() {
           gitHubLink='https://github.com/angeldevildev/car-rental'
         />
         <ProjectBox 
-          title="Portfolio 2024"
-          description="My new portfolio with a new design, i am still working on this project!"
-          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel"]}
-          projectLink='https://portfolio-2024-eight-iota.vercel.app/'
-          gitHubLink='https://github.com/angeldevildev/bank-website'
+          title="JellyFishMC Website"
+          description="I've created this website with NextJS and is for a MineCraft Server. It Is a private repository."
+          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "NextJS", "OpenGraph"]}
+          projectLink='https://jellyfish-website.vercel.app/'
+          gitHubLink='#'
+        />
+          <ProjectBox 
+          title="JellyFishMC Shop"
+          description="The JellyFishMC shop is the part where you can buy some items of the server. It is a private repository."
+          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "NextJS", "OpenGraph"]}
+          projectLink='https://jellyfish-shop.vercel.app/'
+          gitHubLink='#'
         />
         <ProjectBox 
           title="VisiUI"
           description="VisiUI is a library that provides pre-built, editable React components that can be used in your app. Is OpenSource and you can start contributing right NOW!"
-          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "OpenGraph"]}
+          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "OpenGraph", "NextJS"]}
           projectLink="https://visi-ui.vercel.app/"
           gitHubLink="https://github.com/VisiUI/VisiUI"
         />
