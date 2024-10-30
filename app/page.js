@@ -15,6 +15,13 @@ export default function Home() {
       <Skillset />
       <Experience />
       <div className="project-container">
+      <ProjectBox 
+          title="New Portfolio"
+          description="This is my personal portfolio, visit my portfolio and reach me out if you need any Front-End services"
+          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "OpenGraph", "NextJS"]}
+          projectLink="https://www.codedoddle.com/"
+          gitHubLink="https://github.com/angeldevildev/modern-portfolio"
+        />
         <ProjectBox
           title="Car Rental"
           description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
@@ -23,10 +30,10 @@ export default function Home() {
           gitHubLink='https://github.com/angeldevildev/car-rental'
         />
         <ProjectBox 
-          title="JellyFishMC Website"
+          title="CrystalCove"
           description="I've created this website with NextJS and is for a MineCraft Server. It Is a private repository."
           technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "NextJS", "OpenGraph"]}
-          projectLink='https://jellyfish-website.vercel.app/'
+          projectLink='https://crystalcove.vercel.app'
           gitHubLink='#'
         />
           <ProjectBox 
@@ -35,13 +42,6 @@ export default function Home() {
           technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "NextJS", "OpenGraph"]}
           projectLink='https://jellyfish-shop.vercel.app/'
           gitHubLink='#'
-        />
-        <ProjectBox 
-          title="VisiUI"
-          description="VisiUI is a library that provides pre-built, editable React components that can be used in your app. Is OpenSource and you can start contributing right NOW!"
-          technologies={["React", "TypeScript", "Tailwind CSS", "Vercel", "OpenGraph", "NextJS"]}
-          projectLink="https://visi-ui.vercel.app/"
-          gitHubLink="https://github.com/VisiUI/VisiUI"
         />
       </div>
       <Footer />
